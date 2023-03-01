@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+form {
+  width: 95%;
+  margin-top: 1rem;
+}
+.form-button {
+  height: 2rem;
+  width: 20%;
+  -moz-box-sizing: content-box; /* or `border-box` */
+  -webkit-box-sizing: content-box;
+  box-sizing: border-box;
+  background-color: rgb(65, 65, 238);
+  color: white;
+  border: none;
+  font-family: "Lato", sans-serif;
+}
+.form-button:hover {
+  background-color: blue;
+}
+
+.input {
+  width: 80%;
+  height: 2rem;
+  -moz-box-sizing: content-box; /* or `border-box` */
+  -webkit-box-sizing: content-box;
+  box-sizing: border-box;
+}
