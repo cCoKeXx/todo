@@ -22,7 +22,7 @@ const List = () => {
           ></input>
           <p className={classes.text}> {todo.input}</p>
 
-          <div>
+          <div className={classes.buttons_container}>
             <button
               onClick={() => {
                 editTodo(index);

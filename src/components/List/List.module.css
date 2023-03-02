@@ -33,6 +33,11 @@ li {
   color: white;
   border: none;
   margin-right: 0.5rem;
+  height: 2rem;
+}
+.buttons_container{
+  display: flex;
+  flex-wrap: nowrap;
 }
 .editButton {
   background-color: rgb(66, 224, 119);
@@ -47,5 +52,5 @@ li {
   background-color: rgb(199, 49, 49);
 }
 .grayBackground{
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(240, 240, 240);
 }
